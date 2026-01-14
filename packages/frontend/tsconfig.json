@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.packages.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": true,
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": ["./*.ts"],
+  "references": [
+    { "path": "../shared" }
+  ]
+}

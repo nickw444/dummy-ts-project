@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.packages.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": true
+  },
+  "include": ["./*.ts"],
+  "references": [
+    { "path": "../shared" }
+  ]
+}
